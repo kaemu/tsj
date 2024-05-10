@@ -1,0 +1,1 @@
+Discover the majestic Tour Saint-Jacques, one of Paris's architectural treasures, which overlooks the city from its towering height of 54 meters. A privileged witness to the history and evolution of the Châtelet district, this tower, a vestige of the former church of Saint-Jacques-La-Boucherie, transports you through the centuries.

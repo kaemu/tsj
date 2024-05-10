@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    font-size: 14px;
+    @media (min-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+.text-link {
+    @apply text-blue-500 underline;
+}
+h2 {
+    @apply font-jacques font-thin text-4xl md:text-2xl tracking-wide;
+}
+h3 {
+    @apply font-jacques font-thin text-2xl md:text-xl tracking-wide;
+}
+h4 {
+    @apply font-sans !text-blackjacques tracking-wide;
+}
+p ~ h4,
+p ~ h3,
+ul ~ h4,
+ul ~ h3 {
+    @apply pt-3 md:pt-6;
+}
+p, li {
+    @apply font-light tracking-wide;
+}
+.markdown-body li {
+    list-style-type: '— ';
+    list-style-position: inside;
+}
+.markdown-body hr {
+    @apply my-6;
+}
+p {
+    @apply leading-relaxed;
+}
+strong {
+    @apply font-semibold text-blackjacques;
+}
+.prose .markdown-body p,
+.prose .markdown-body hr,
+.prose .markdown-body h3 {
+    @apply pb-6 md:pb-6 m-auto md:max-w-[640px] lg:max-w-[800px] leading-loose;
+}
+.prose-text-white .markdown-body p,
+.prose-text-white .markdown-body h2,
+.prose-text-white .markdown-body h3 {
+    @apply text-white;
+}
+.prose-text-white .markdown-body p {
+    @apply leading-normal text-sm text-left;
+}
+h2, h3, h4, p, li {
+    @apply text-blackjacques my-2 md:my-8 md:mt-0 md:mb-2;
+}
+h2 {
+    @apply mb-12 md:mb-6;
+}
+h3, h4 {
+    @apply leading-relaxed mb-6 md:mb-2;
+}
+.p-leading-loose p {
+    @apply leading-loose;
+}
+section {
+    @apply w-full text-left text-lg md:text-base;
+}
+section>.inner {
+    @apply p-[5vw] sm:px-12 md:px-24 md:py-12;
+}
+.inner-y {
+    @apply md:py-12;
+}
+.inner-left {
+    @apply p-[5vw] md:px-24;
+}
+.inner-right {
+    @apply pr-[5vw];
+}
