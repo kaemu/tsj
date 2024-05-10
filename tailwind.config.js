@@ -10,7 +10,7 @@ export default {
         'jacques': ['Merriweather']
       },
       colors: {
-        'blackjacques': '#1D1D1B'
+        'blackjacques': '#18181B'
       }
     },
   },

@@ -35,14 +35,14 @@ watch(lang, () => {
   <section class="w-full h-[70vh] md:h-[640px] relative">
     <div class="w-screen h-full absolute overflow-hidden">
       <img
-        class="w-screen object-fill object-center"
+        class="max-w-[200vw] pl-[-12px] md:h-auto md:w-screen md:object-fill object-center"
         src="https://magmacultura.com/wp-content/uploads/2023/07/Magmacultura_TourSaintJaqcques0.jpg"
       />
     </div>
     <div class="inner relative grid content-center h-full z-10">
       <div class="flex flex-col space-y-8">
         <div>
-          <h1 class="text-white text-5xl md:text-6xl font-jacques pb-4">
+          <h1 class="text-white text-[2.7rem] leading-[1.2em] md:text-6xl font-jacques pb-4">
             Tour<br />
             Saint-Jacques
           </h1>
@@ -70,10 +70,10 @@ watch(lang, () => {
     <div class="inner md:text-center md:text-xl font-jacques p-leading-loose">
       <LaTourIntro />
       <div class="mt-12 w-full max-w-[1000px] m-auto overflow-hidden flex items-center justify-between">
-        <img src="/logo-paris.png" class="h-28 lg:h-32" />
+        <img src="/logo-paris.png" class="h-20 lg:h-32" />
         <img src="/logo-unesco.png" class="h-28 lg:h-32" />
         <img src="/logo-monument-historique.png" class="h-24 lg:h-32" />
-        <img src="/logo-st-jacques-de-compostelle.png" class="h-28 lg:h-32" />
+        <img src="/logo-st-jacques-de-compostelle.png" class="h-20 lg:h-32" />
       </div>
     </div>
   </section>
