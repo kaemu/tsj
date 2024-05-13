@@ -65,10 +65,12 @@ watch([y, isScrolling], () => {
         <li class="grow"></li>
         <li class="nav-item" v-if="lang !== 'fr'"><a href="/fr">Français</a></li>
         <li class="nav-item" v-if="lang !== 'en'"><a href="/en">English</a></li>
-        <li class="transition-opacity opacity-0 md:opacity-100" :class="{ 'opacity-100': showButton }">
-          <Button :href="ticketsUrl" class="btn-orange mr-4">
-            {{ $t("Billeterie") }}
-          </Button>
+        <li class="transition-opacity items-center h-full opacity-0 md:opacity-100" :class="{ 'opacity-100': showButton }">
+          <div class="flex item-center h-10 mr-4 mt-1 md:mt-2 md:mr-0">
+            <Button :href="ticketsUrl" class="btn-orange">
+              {{ $t("Billeterie") }}
+            </Button>
+          </div>
         </li>
       </ul>
     </div>

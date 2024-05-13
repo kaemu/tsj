@@ -84,3 +84,7 @@ section>.inner {
 .inner-right {
     @apply pr-[5vw];
 }
+.prose.h3-deco h3 {
+}
+.prose.h3-deco h3:before {
+}

@@ -50,7 +50,7 @@ import ParisMap from '../components/ParisMap.vue'
     <p>
       {{ $t("RER A, B ou D - Station Châtelet-les-Halles, sortie Secteur Seine") }}
     </p>
-    <div class="flex items-start w-full">
+    <div class="mt-6 flex items-start w-full">
       <div class="flex-grow">
         <h4>
           {{ $t("En voiture") }}
@@ -59,9 +59,9 @@ import ParisMap from '../components/ParisMap.vue'
           Parking Hôtel de Ville
         </p>
       </div>
-      <div>
+      <div class="w-20">
         <a target="_blank" href="https://www.google.com/maps/place/Tour+Saint-Jacques/@48.858072,2.3463323,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1e5e72161b:0xe085e8b2d3c0632e!8m2!3d48.8580685!4d2.3489072!16zL20vMDNtZ2Zj?entry=ttu">
-          <ParisMap class="w-full h-20" />
+          <ParisMap class="mt-4 w-full h-16" />
         </a>
       </div>
     </div>

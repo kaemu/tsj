@@ -111,7 +111,7 @@ useHead({
   </section>
 
   <section class="w-full" id="la-tour">
-    <div class="inner prose">
+    <div class="inner prose h3-deco">
       <ReadMore>
         <LaTour />
       </ReadMore>
