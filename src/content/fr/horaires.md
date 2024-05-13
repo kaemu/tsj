@@ -1,6 +1,6 @@
 ### Horaires
 
-- Tous les **vendredis, samedis et dimanches**
+- Tous les **mercredi, jeudi, vendredi, samedi, dimanche**
 
 - De **10h à 18h**
 

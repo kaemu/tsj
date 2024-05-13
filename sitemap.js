@@ -2,7 +2,7 @@
 
 import { DateTime } from 'luxon'
 import { availableLocales } from './src/i18n.js'
-import { siteUrl, routes } from './src/routes.js'
+import { siteUrl, ticketsUrl, routes } from './src/routes.js'
 import { open } from 'node:fs/promises'
 
 const lastmod = DateTime.now().toFormat('yyyy-MM-dd')
@@ -10,7 +10,7 @@ const urls = new Map()
 for (const lang of availableLocales) {
   for (const route of routes) {
     if (!route.redirect) {
-      const r = route.path.replace(/^\/:lang/, `/${lang}`)
+      const r = route.path.replace(/^\/:lang/, `/${lang}`).replace(/\(.*\)/g, '')
       urls.set(`${siteUrl}${r}`, {
         loc: `${siteUrl}${r}`,
         lastmod
@@ -20,7 +20,7 @@ for (const lang of availableLocales) {
 }
 
 urls.set('billeterie', {
-  loc: 'https://boutique.toursaintjacques.fr',
+  loc: ticketsUrl,
   lastmod
 })
 

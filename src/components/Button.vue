@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <a :href="href" :to="to" class="uppercase md:text-xs tracking-wider cursor-pointer group px-6 py-2 md:py-3 rounded-full transition-all flex center-items space-x-2">
-    <div><slot /></div>
+    <div class="grow pr-4"><slot /></div>
     <ArrowRightIcon class="w-4 transition-transform ease-out duration-300 group-hover:translate-x-1" />
   </a>
 </template>

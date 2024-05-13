@@ -1,12 +1,11 @@
-### Horaires
+### Hours
 
-- Tous les **vendredis, samedis et dimanches**
+- Every **Friday, Saturday, and Sunday**
 
-- De **10h à 18h**
+- From **10:00 AM to 6:00 PM**
 
-- Du **17 mai au 10 novembre 2024 inclus.**  
+- From **May 17th to November 10th, 2024, inclusive**
 
 ---
 
-Durée de la visite guidée: **1 heure**
-
+Duration of guided tour: **1 hour**

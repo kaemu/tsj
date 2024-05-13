@@ -9,8 +9,9 @@ html, body {
     }
 }
 
-.text-link {
-    @apply text-blue-500 underline;
+.text-link,
+.prose .markdown-body a {
+    @apply text-blue-500 hover:underline cursor-pointer;
 }
 h2 {
     @apply font-jacques font-thin text-4xl md:text-2xl tracking-wide;

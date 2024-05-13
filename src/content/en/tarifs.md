@@ -1,14 +1,15 @@
-### Tarifs
+### Prices
 
-- Plein tarif : **12 €**
-- Tarif réduit : **10 €** (-18 ans, étudiants, bénéficiaires de minima sociaux)
+- Full price: **€12**
+- Reduced price: **€10** (under 18, students, beneficiaries of social minimums)
 
-#### Restrictions d'accès
+#### Access Restrictions
 
-- Personnes souffrant de claustrophobie et de vertige.
-- Personnes rencontrant des difficultés à marcher ou des problèmes cardiaques, présentant un handicap visuel, auditif ou moteur.
- 
-- Réservé aux visiteurs de plus de 10 ans.
- 
-- Ascension nécessitant un effort physique : 
-Prévoir une tenue et des chaussures confortables pour gravir les 300 marches de la tour et profiter d’une des plus belles vues de Paris.
+- Individuals suffering from claustrophobia and vertigo.
+
+- Individuals experiencing difficulty walking or with cardiac problems, as well as those with visual, auditory, or motor impairments.
+
+- Reserved for visitors over 10 years old.
+
+- Climbing requires physical effort:
+Ensure to wear comfortable clothing and shoes to climb the 300 steps of the tower and enjoy one of the most beautiful views of Paris.

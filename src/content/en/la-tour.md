@@ -1,27 +1,17 @@
-## La tour
+## The Tower Saint-Jacques
 
-### Histoire
+### History
 
-Attestée au XIIe siècle et située à proximité des seuls ponts parisiens qui enjambent la Seine à cette époque, l'église Saint-Jacques-de-la-Boucherie s'érigeait au cœur du quartier de la Grande Boucherie, prenant son nom pour la différencier de l'église de Saint-Jacques du Haut-Pas, sur la rive gauche. Cette église était le lieu d'inhumation des paroissiens notables, tels que Nicolas Flamel, célèbre bourgeois parisien, qui y fut enterré en raison de ses dons considérables.
+First documented in the 12th century and situated near the only bridges in Paris that crossed the Seine at that time, the Church of Saint-Jacques-de-la-Boucherie stood at the heart of the district known as the Grande Boucherie, taking its name to distinguish it from the Church of Saint-Jacques du Haut-Pas on the Left Bank. This church served as the burial place for notable parishioners, such as Nicolas Flamel, the famous Parisian bourgeois, who was interred there due to his considerable donations.
 
-En 1509, la construction d'un nouveau clocher dans le style gothique « flamboyant » débute, financée par la puissante confrérie du quartier des bouchers. Achevée en 1523 sous la direction de l'architecte Jean de Felin, la tour présente de nombreux éléments caractéristiques de ce style tels que des arcs-boutants, des gargouilles et des pinacles élancés.
+In 1509, the construction of a new bell tower in the flamboyant Gothic style began, funded by the powerful brotherhood of the butchers' district. Completed in 1523 under the direction of the architect Jean de Felin, the tower features many characteristic elements of this style such as flying buttresses, gargoyles, and slender pinnacles.
 
-La Révolution vient cependant bouleverser l’histoire de l’édifice, l'église devient alors bien national et est vendue comme carrière de pierres en 1797, à condition que son clocher, le plus haut de la rive droite, soit préservé. C’est en 1836 que la Ville de Paris acquiert le clocher dans le cadre d'un vaste projet urbain de développement de l'axe est-ouest de la ville.
+However, the Revolution drastically alters the history of the building. The church becomes national property and is sold as a stone quarry in 1797, with the condition that its bell tower, the tallest on the right bank, be preserved. It wasn't until 1836 that the City of Paris acquired the bell tower as part of a large urban development project aimed at expanding the city's east-west axis.
 
-Ainsi, la tour a été le théâtre de diverses fonctions au cours des siècles. Le célèbre mathématicien et physicien Blaise Pascal y mène des expériences sur la pesanteur de l'air entre 1647 et 1648. Cette dernière est également utilisée à des fins commerciales et transformée en fabrique de plomb dans les années 1800. Plus tard, en 1885, le physicien Joseph Jaubert utilise la tour pour mener des expériences météorologiques. Puis, pendant une grande partie du XXe siècle, la tour continue à être utile à la communauté.
+Thus, the tower has served various functions throughout the centuries. The renowned mathematician and physicist Blaise Pascal conducted experiments on air pressure there between 1647 and 1648. It was also used for commercial purposes and transformed into a lead factory in the 1800s. Later, in 1885, the physicist Joseph Jaubert used the tower for meteorological experiments. Then, for much of the twentieth century, the tower continued to be useful to the community.
 
-Sous Napoléon III, en 1853, le baron Haussmann, préfet de la Seine, orchestre une réorganisation des services pour concrétiser les grands projets urbains amorcés sous la Restauration et la Monarchie de Juillet. Ces initiatives, amorcées dès le Premier Empire, ont pour but de moderniser Paris en créant des boulevards spacieux, des gares et des espaces verts, impulsant ainsi la métamorphose de la capitale.
-Ces travaux d'envergure transforment profondément l'histoire de la Tour Saint-Jacques, notamment grâce à la prolongation de la rue de Rivoli et à l'ouverture du boulevard de Sébastopol, qui se croisent devant le monument et son square aménagé. Ce dernier, conçu spécialement pour mettre en valeur l'ancien clocher gothique, métamorphosé en tour ornementale sous la houlette de l'architecte Théodore Ballu. Dès 1862, cette transformation majeure lui vaudra d'être protégée au titre des monuments historiques.
+Under Napoleon III, in 1853, Baron Haussmann, prefect of the Seine, orchestrated a reorganization of services to implement major urban projects initiated during the Restoration and the July Monarchy. These initiatives, which began as early as the First Empire, aimed to modernize Paris by creating spacious boulevards, train stations, and green spaces, thus driving the transformation of the capital.
+
+These extensive works profoundly transformed the history of the Saint-Jacques Tower, notably with the extension of Rue de Rivoli and the opening of Boulevard de Sébastopol, which intersect in front of the monument and its landscaped square. The square, specially designed to highlight the former Gothic bell tower, transformed into an ornamental tower under the direction of the architect Théodore Ballu. As early as 1862, this major transformation earned it protection as a historical monument.
 
 ---
-
-### La tour aujourd’hui
-
-La restauration de la Tour Saint-Jacques, menée par la Ville de Paris entre 2006 et 2013, a pour ambition de préserver son architecture héritée du XVIe siècle. Les façades, la terrasse et le décor statuaire et ornemental ont été minutieusement restaurés, avec pour objectif de remplacer les pierres trop dégradées, de consolider les fragilisées et de restituer les éléments essentiels à la cohérence architecturale.
-
-Aujourd'hui, la Tour Saint-Jacques occupe une place prépondérante en tant que l'un des quatre points de départ du chemin de Saint-Jacques-de-Compostelle en France. La via Turonensis commence à ses pieds pour relier Saint-Jean-Pied-de-Port, dans les Pyrénées-Atlantiques, sur plus de 1000 kilomètres. Reconnue par l'UNESCO en 1998, elle est inscrite au Patrimoine mondial en tant que site des chemins de Saint-Jacques-de-Compostelle en France.
-
-Chaque printemps depuis sa rénovation, la ville de Paris ouvre les portes aux parisiens et aux visiteurs :
-
-La Tour Saint Jacques entre même dans les classes d’écoles grâce à une volonté affirmée de partager ce patrimoine exceptionnel auprès de tous. 
-Le grand public peut visiter la tour accompagné d’un guide, mais toute au long de son ouverture des propositions exceptionnelles vous seront proposées comme  des ateliers photo, des soirées spéciales pour découvrir différemment les secrets de cet édifice d'exception et d'explorer son histoire fascinante.  (informations à retrouver sur notre compte Instagram) 

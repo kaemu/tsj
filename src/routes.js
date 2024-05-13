@@ -1,4 +1,5 @@
 export const siteUrl = 'https://www.toursaintjacques.fr'
+export const ticketsUrl = 'https://boutique.toursaintjacques.fr'
 export const baseUrl = ''
 
 export const routes = [
@@ -13,7 +14,7 @@ export const routes = [
         component: () => import('./pages/HomePage.vue')
     },
     {
-        path: '/(.*)', redirect: () => {
+        path: '/:catchAll(.*)', redirect: () => {
             return `/`
         }
     }
