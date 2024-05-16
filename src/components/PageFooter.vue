@@ -12,7 +12,7 @@ const lang = computed(() => route.params.lang)
   <section class="bg-stone-700">
     <div class="inner flex-col space-y-4 !py-12 md:py-6">
       <a :href="`https://magmacultura.com/${lang}`" target="_blank" class="cursor-pointer group">
-        <img src="/magmacultura.svg" class="h-6 opacity-50 group-hover:opacity-100 transition-opacity" />
+        <img src="/logo/magmacultura.svg" class="h-6 opacity-50 group-hover:opacity-100 transition-opacity" />
       </a>
       <div class="text-sm md:text-xs !md:py-2 flex flex-col space-y-2 xl:flex-row xl:space-x-8 xl:space-y-0">
         <p class="text-stone-400">

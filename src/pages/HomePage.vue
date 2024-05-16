@@ -32,19 +32,42 @@ watch(lang, () => {
 })
 
 const { t: $t } = i18n.global
+const title = $t('Tour Saint-Jacques Paris - Site officiel')
+const description = $t('Visitez la majestueuse Tour Saint-Jacques, l’un des trésors architecturaux de Paris, qui domine la ville du haut de ses 54 mètres.')
+const canonical = `${siteUrl}/${lang.value}`
 
 useHead({
-  title: $t('Tour Saint-Jacques Paris - Site officiel'),
+  title,
   meta: [
     {
       name: 'description',
-      content: $t('Visitez la majestueuse Tour Saint-Jacques, l’un des trésors architecturaux de Paris, qui domine la ville du haut de ses 54 mètres.'),
+      content: description,
+    },
+    {
+      'http-equiv': 'Content-Language',
+      content: lang.value
+    },
+    {
+      property: 'og:title',
+      content: title
+    },
+    {
+      property: 'og:description',
+      content: description
+    },
+    {
+      property: 'og:URL',
+      content: canonical
+    },
+    {
+      property: 'og:image',
+      content: `${siteUrl}/tour-saint-jacques-paris.jpg`
     }
   ],
   link: [
     {
       rel: 'canonical',
-      href: `${siteUrl}`
+      href: canonical
     }
   ],
 })
@@ -59,6 +82,7 @@ useHead({
       <picture>
           <source type="image/webp" srcset="/tour-saint-jacques-paris.webp" />
           <img
+            :alt="$t('Vue panoramique sur La Tour Saint-Jacques à Paris.')"
             class="max-w-[200vw] pl-[-12px] md:h-auto md:w-screen md:object-fill object-center"
             src="/tour-saint-jacques-paris.jpg"
           />
@@ -71,7 +95,7 @@ useHead({
             Tour<br />
             Saint-Jacques
           </h1>
-          <p class="text-white font-thin w-1/2 text-2xl leading-relaxed">
+          <p class="text-white font-light w-1/2 text-2xl leading-relaxed">
             Paris
           </p>
         </div>
@@ -95,14 +119,13 @@ useHead({
     <div class="inner md:text-center md:text-xl font-jacques p-leading-loose">
       <LaTourIntro />
       <div class="mt-6 mb:mt-12 w-full max-w-[1000px] m-auto overflow-hidden flex items-center justify-between">
-        <img src="/logo-paris.png" class="h-20 lg:h-32" />
-        <img src="/logo-unesco.png" class="h-28 lg:h-32" />
-        <img src="/logo-monument-historique.png" class="h-24 lg:h-32" />
-        <img src="/logo-st-jacques-de-compostelle.png" class="h-20 lg:h-32" />
+        <img :alt="$t('La Ville de Paris (logo)')" src="/logo/logo-paris.svg" class="h-20 lg:h-32" />
+        <img :alt="$t('UNESCO (logo)')" src="/logo/logo-unesco.svg" class="h-28 lg:h-32" />
+        <img :alt="$t('Les Monuments Historiques (logo)')" src="/logo/logo-monument-historique.svg" class="h-24 lg:h-32" />
+        <img :alt="$t('Saint-Jacques de Compostelle (logo)')" src="/logo/logo-st-jacques-de-compostelle.svg" class="h-20 lg:h-32" />
       </div>
     </div>
   </section>
-
 
   <section class="w-full bg-stone-100">
     <div class="inner md:text-center md:text-xl">
@@ -136,7 +159,7 @@ useHead({
         </div>
       </div>
       <div class="mt-12 md:mt-0 md:col-span-2 lg:col-span-2">
-        <img src="/visit.jpg" class="w-full" />
+        <img :alt="$t('Visite guidée de la Tour Saint-Jacques')"  src="/visit.jpg" class="w-full" />
         <div class="px-6 pb-6 md:px-0 md:pr-8 md:py-4 side-text text-sm">
           <LaVisiteExperience />
         </div>
@@ -186,11 +209,6 @@ useHead({
 </template>
 
 <style scoped>
-.bg-visit {
-  background-image: url('/visit.jpg');
-  background-position: center center;
-  background-size: cover;
-}
 .side-text .markdown-body p {
   @apply leading-tight;
 }

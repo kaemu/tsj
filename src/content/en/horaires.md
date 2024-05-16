@@ -1,6 +1,6 @@
 ### Hours
 
-- Every **Friday, Saturday, and Sunday**
+- Every **Wednesday, Thursday, Friday, Saturday, and Sunday**
 
 - From **10:00 AM to 6:00 PM**
 
