@@ -119,7 +119,7 @@ useHead({
     <div class="inner md:text-center md:text-xl font-jacques p-leading-loose">
       <LaTourIntro />
       <div class="mt-6 mb:mt-12 w-full max-w-[1000px] m-auto overflow-hidden flex items-center justify-between">
-        <img :alt="$t('La Ville de Paris (logo)')" src="/logo/logo-paris.svg" class="h-20 lg:h-32" />
+        <img :alt="$t('La Ville de Paris (logo)')" src="/logo/logo-paris-2.svg" class="h-20 lg:h-32" />
         <img :alt="$t('UNESCO (logo)')" src="/logo/logo-unesco.svg" class="h-28 lg:h-32" />
         <img :alt="$t('Les Monuments Historiques (logo)')" src="/logo/logo-monument-historique.svg" class="h-24 lg:h-32" />
         <img :alt="$t('Saint-Jacques de Compostelle (logo)')" src="/logo/logo-st-jacques-de-compostelle.svg" class="h-20 lg:h-32" />
