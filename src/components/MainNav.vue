@@ -41,33 +41,33 @@ watch([y, isScrolling], () => {
       <li><a href="#la-tour">{{ $t("La tour Saint-Jacques") }}</a></li>
       <li><a href="#la-visite">{{ $t("La visite") }}</a></li>
       <li><a href="#infos" tag="a">{{ $t("Infos pratiques") }}</a></li>
-      <hr class="opacity-10 my-12" />
+      <li><hr class="opacity-10 !px-0" /></li>
       <li class="flex">
         <a class="w-1/2" href="/fr">Français</a>
         <a class="w-1/2" href="/en">English</a>
       </li>
-      <hr class="opacity-10 my-12" />
-      <div>
-        <Button :href="ticketsUrl" class="btn-orange mx-24">
+      <li><hr class="opacity-10 !px-0" /></li>
+      <li class="!px-0">
+        <Button :aria-label="$t('Billeterie')" :href="ticketsUrl" class="btn-orange mx-24">
           {{ $t("Billeterie") }}
         </Button>
-      </div>
+      </li>
     </ul>
     <div id="menu" class="block relative z-20">
-      <input type="checkbox" v-model="opened" />
+      <input aria-label="Open Menu" type="checkbox" v-model="opened" />
       <span></span>
       <span></span>
       <span></span>
-      <ul class="nav-items">
-        <li class="nav-item"><a href="#la-tour">{{ $t("La tour") }}</a></li>
-        <li class="nav-item"><a href="#la-visite">{{ $t("La visite") }}</a></li>
-        <li class="nav-item"><a href="#infos" tag="a">{{ $t("Infos pratiques") }}</a></li>
-        <li class="grow"></li>
-        <li class="nav-item" v-if="lang !== 'fr'"><a href="/fr">Français</a></li>
-        <li class="nav-item" v-if="lang !== 'en'"><a href="/en">English</a></li>
-        <li class="transition-opacity items-center h-full opacity-0 md:opacity-100" :class="{ 'opacity-100': showButton }">
+      <ul role="menu" class="nav-items">
+        <li role="menuitem" class="nav-item"><a href="#la-tour">{{ $t("La tour") }}</a></li>
+        <li role="menuitem" class="nav-item"><a href="#la-visite">{{ $t("La visite") }}</a></li>
+        <li role="menuitem" class="nav-item"><a href="#infos" tag="a">{{ $t("Infos pratiques") }}</a></li>
+        <li role="none" class="grow"></li>
+        <li role="menuitem" class="nav-item" v-if="lang !== 'fr'"><a href="/fr">Français</a></li>
+        <li role="menuitem" class="nav-item" v-if="lang !== 'en'"><a href="/en">English</a></li>
+        <li role="menuitem" class="transition-opacity items-center h-full opacity-0 md:opacity-100" :class="{ 'opacity-100': showButton }">
           <div class="flex item-center h-10 mr-4 mt-1 md:mt-2 md:mr-0">
-            <Button :href="ticketsUrl" class="btn-orange">
+            <Button :aria-label="$t('Billeterie')" :href="ticketsUrl" class="btn-orange">
               {{ $t("Billeterie") }}
             </Button>
           </div>

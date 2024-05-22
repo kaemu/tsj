@@ -37,6 +37,9 @@ const description = $t('Visitez la majestueuse Tour Saint-Jacques, l’un des tr
 const canonical = `${siteUrl}/${lang.value}`
 
 useHead({
+  htmlAttrs: {
+    lang: lang.value
+  },
   title,
   meta: [
     {
@@ -77,13 +80,14 @@ useHead({
 <template>
   <MainNav />
 
-  <section class="w-full min-h-[500px] h-[70vh] md:h-[640px] relative">
+  <section class="w-full min-h-[500px] h-[70vh] md:no-min-h md:h-[280px] lg:h-[640px] xl:h-[720px] relative">
     <div class="w-screen h-full absolute overflow-hidden">
       <picture>
-          <source type="image/webp" srcset="/tour-saint-jacques-paris.webp" />
+          <source media="(max-width: 767px)" type="image/webp" srcset="/tour-saint-jacques-paris-mobile.webp" />
+          <source media="(max-width: 768px)" type="image/webp" srcset="/tour-saint-jacques-paris.webp" />
           <img
             :alt="$t('Vue panoramique sur La Tour Saint-Jacques à Paris.')"
-            class="max-w-[200vw] pl-[-12px] md:h-auto md:w-screen md:object-fill object-center"
+            class="w-full h-full object-cover object-top"
             src="/tour-saint-jacques-paris.jpg"
           />
         </picture>
@@ -101,12 +105,12 @@ useHead({
         </div>
         <div class="flex flex-col md:flex-row space-y-8 md:space-x-8 md:space-y-0">
           <div class="flex">
-            <Button class="btn-orange" :href="ticketsUrl">
+            <Button :aria-label="$t('Billeterie')" class="btn-orange" :href="ticketsUrl">
               {{ $t("Billeterie") }}
             </Button>
           </div>
           <div class="flex">
-            <Button class="text-white" href="#la-visite">
+            <Button :aria-label="$t('Infos visite')" class="text-white" href="#la-visite">
                 {{ $t("Infos visite") }}
             </Button>
           </div>
@@ -152,7 +156,7 @@ useHead({
         <div class="inner-left inner-y prose">
           <LaVisite />
           <div class="flex mt-8">
-            <Button class="btn-orange m-auto md:m-0" :href="ticketsUrl">
+            <Button :aria-label="$t('Billeterie')" class="btn-orange m-auto md:m-0" :href="ticketsUrl">
               {{ $t("Acheter un Billet en ligne") }}
             </Button>
           </div>

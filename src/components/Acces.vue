@@ -8,7 +8,7 @@ import ParisMap from '../components/ParisMap.vue'
     <h3>{{ $t("Accès") }}</h3>
     <h4>{{ $t("Adresse") }}</h4>
     <p>
-      <a target="_blank" href="https://www.google.com/maps/place/Tour+Saint-Jacques/@48.858072,2.3463323,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1e5e72161b:0xe085e8b2d3c0632e!8m2!3d48.8580685!4d2.3489072!16zL20vMDNtZ2Zj?entry=ttu">
+      <a aria-label="Google Map" target="_blank" href="https://www.google.com/maps/place/Tour+Saint-Jacques/@48.858072,2.3463323,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1e5e72161b:0xe085e8b2d3c0632e!8m2!3d48.8580685!4d2.3489072!16zL20vMDNtZ2Zj?entry=ttu">
         <MapPinIcon class="inline w-6 text-red-500"/> 
       </a>
       39&nbsp;rue de Rivoli, 75004&nbsp;Paris
@@ -60,7 +60,7 @@ import ParisMap from '../components/ParisMap.vue'
         </p>
       </div>
       <div class="w-20">
-        <a target="_blank" href="https://www.google.com/maps/place/Tour+Saint-Jacques/@48.858072,2.3463323,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1e5e72161b:0xe085e8b2d3c0632e!8m2!3d48.8580685!4d2.3489072!16zL20vMDNtZ2Zj?entry=ttu">
+        <a aria-label="Google Map" target="_blank" href="https://www.google.com/maps/place/Tour+Saint-Jacques/@48.858072,2.3463323,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1e5e72161b:0xe085e8b2d3c0632e!8m2!3d48.8580685!4d2.3489072!16zL20vMDNtZ2Zj?entry=ttu">
           <ParisMap class="mt-4 w-full h-16" />
         </a>
       </div>
