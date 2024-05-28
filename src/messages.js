@@ -24,7 +24,7 @@ export const messages = {
       'Mentions légales': 'Legal Notice',
       'Politique de confidentialité': 'Privacy Policy',
       'Conditions générales de vente': 'Terms and Conditions of Sale',
-      'Visit the majestic Saint-Jacques Tower, one of Paris’ architectural treasures, which overlooks the city from its 54 meters height.': '',
+      'Découvrez la majestueuse Tour Saint-Jacques, l’un des trésors architecturaux du patrimoine de la ville de Paris, qui domine la ville du haut de ses 54 mètres.': 'Visit the majestic Saint-Jacques Tower, one of Paris’ architectural treasures, which overlooks the city from its 54 meters height.'
   },
   fr: {
   }

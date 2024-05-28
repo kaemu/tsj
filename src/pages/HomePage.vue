@@ -33,7 +33,7 @@ watch(lang, () => {
 
 const { t: $t } = i18n.global
 const title = $t('Tour Saint-Jacques Paris - Site officiel')
-const description = $t('Visitez la majestueuse Tour Saint-Jacques, l’un des trésors architecturaux de Paris, qui domine la ville du haut de ses 54 mètres.')
+const description = $t('Découvrez la majestueuse Tour Saint-Jacques, l’un des trésors architecturaux du patrimoine de la ville de Paris, qui domine la ville du haut de ses 54 mètres.')
 const canonical = `${siteUrl}/${lang.value}`
 
 useHead({
