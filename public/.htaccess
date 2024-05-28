@@ -3,6 +3,12 @@
   RewriteBase /
   RewriteCond %{SERVER_PORT} !=443
   RewriteRule ^(.*)$ https://www.toursaintjacques.fr/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^(www\.)toursaintjacques.paris [NC]
+  RewriteRule ^(.*)$ https://www.toursaintjacques.fr/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^(www\.)toursaintjacques.com [NC]
+  RewriteRule ^(.*)$ https://www.toursaintjacques.fr/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^toursaintjacques.fr [NC]
+  RewriteRule ^(.*)$ https://www.toursaintjacques.fr/$1 [R=301,L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule (.*) /index.html [QSA,L]
